@@ -1,0 +1,53 @@
+body{
+    background-color: beige;
+}
+
+
+header {
+    background-color: rgb(169, 169, 169);
+}
+
+header>div{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+
+#head {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+footer {
+    background-color: rgb(169, 169, 169) ;
+}
+
+li {
+    list-style: none;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.footer-nav ul{
+    display: inline-flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
