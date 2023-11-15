@@ -23,28 +23,12 @@ li{
 header>div{
     display: flex;
     justify-content: space-around;
-    /* margin: 50px; */
+    margin: 50px;
 }
 
-#navIndex>li{
+#nav>li{
     padding: 50px 5px;
-   
 }
-
-#navIndex a{
-    color: white;
-}
-
-#navDev>li{
-    padding: 50px 5px;
-   
-}
-#navEt>li{
-    padding: 50px 5px;
-   
-}
-
-
 
 section{
     display: inline-flex;
@@ -67,7 +51,6 @@ section{
     height: 650px;
     margin: 0;
     padding: 10px;
-    
 
 }
 
@@ -112,42 +95,35 @@ section{
     background-color: white;
     border: 10px solid black;
     width: 300px;
-    height: 680px;
+    height: 580px;
     margin: 0;
     padding: 10px;
 
 }
 #elem2Dev {
-    background-color: blue;
+    background-color: yellow;
     border: 10px solid black;
-    width: 150px;
-    height: 680px;
+    width: 300px;
+    height: 580px;
     margin: 0;
     padding: 10px;
 
 }
 
 #elem3Dev{
-    background-color: yellow;
+    background-color: blue;
     border: 10px solid black;
-    width: 800px;
-    height: 400px;
+    width: 650px;
+    height: 300px;
     margin: 0;
     padding-top: 300px;
 }
 
-#elem3Dev{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-
 
 #elem4Dev{
-    background-color: red;
+    background-color: yellow;
     border: 10px solid black;
-    width: 510px;
+    width: 500px;
     height: 200px;
     margin-top: 0px;
     padding: 10px;
@@ -156,7 +132,7 @@ section{
 
 
 #footerDev {
-    background-color:yellow ;
+    background-color:red ;
     border: 10px solid black;
 }
 
@@ -309,11 +285,6 @@ footer li {
 
 
 
-article{
-    display: flex;
-}
 
 
-.hidden{
-    display: none;
-}
+
